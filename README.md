@@ -49,9 +49,6 @@ services:
    volumes:
      - ./www:/var/www:ro
    restart: unless-stopped
-#   depends_on:
-#     nginx:
-#      condition: service_healthy
    networks:
     backend:
      aliases:
