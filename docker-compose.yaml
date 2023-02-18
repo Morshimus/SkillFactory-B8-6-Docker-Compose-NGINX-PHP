@@ -69,6 +69,3 @@ networks:
      driver: default
      config:
       - subnet: 10.111.22.0/28   
-
-volumes:
- redis-data:
