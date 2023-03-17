@@ -14,7 +14,7 @@
 
 ## Поехали.
 
-```
+```yaml
 version: '3.8'
 
 x-logging: &logging
